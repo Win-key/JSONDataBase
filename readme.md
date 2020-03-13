@@ -7,13 +7,13 @@ Get it in your system using <code>mvn install</code>
 
 Maven dependency
 ================
-<code>
+<pre>
 <dependency>
 	<groupId>com.winkey</groupId>
 	<artifactId>JSONFileDB</artifactId>
 	<version>1.0.0</version>
 <dependency>
-</code>
+</pre>
 
 Actions you can do
 ==================
