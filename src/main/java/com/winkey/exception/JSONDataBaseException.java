@@ -6,11 +6,8 @@ package com.winkey.exception;
  * */
 public class JSONDataBaseException extends Exception {
 
-    public JSONDataBaseException() {
-        super();
-    }
-
     public JSONDataBaseException(String message) {
         super(message);
     }
+
 }

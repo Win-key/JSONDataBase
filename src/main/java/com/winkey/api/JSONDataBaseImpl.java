@@ -66,6 +66,9 @@ class JSONDataBaseImpl implements JsonDataBase {
 		ObjectOutputStream oos = null;
 		FileOutputStream fos = null;
 
+		if(JSONUtility.isFileSizeExceeds(storageFile))
+			throw new NullPointerException("Storage Space Running Out. limited to 1GB");
+
 		if(key == null || key.length() == 0)
 			throw new NullPointerException("Key should not be null or empty");
 		if(!JSONUtility.isAllowedKeySize(key))
